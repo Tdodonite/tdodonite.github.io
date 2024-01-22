@@ -1,0 +1,234 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.back {
+  background-image: url(../images/bureau-futuriste-eclaire-par-equipement-eclairage-bleu-nuit-genere-par-ia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -55.5px;
+  padding: 10% 0 10%;
+}
+
+section div {
+  font-family: "Kalam", sans-serif;
+}
+
+.img-text {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 15vh 5vw 15vh;
+  border: 4px white solid;
+  border-radius: 15px;
+  padding: 2% 4% 2%;
+  background-color: rgba(249, 216, 183, 0.6);
+}
+
+
+.titre_discord {
+  font-size: 2.6vw;
+  text-shadow: 2px 2px 2px black;
+  font-family: "Kalam", sans-serif;
+  color: white;
+}
+
+
+#img_dev {
+  display: flex;
+  width: 25vw;
+  justify-content: center;
+  margin: auto;
+}
+
+#image_discord {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.nom_activite_accueil {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5vw;
+  text-shadow: 1px 1px 1px black;
+  color: white;
+}
+
+#button_activities {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.8vw;
+  border: 0.6vw white solid;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 15px;
+  font-family: "Quicksand", sans-serif;
+  margin: 0 15vw 0;
+}
+
+#discord {
+  max-width: 20vw;
+  max-height: 28vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, black 0%, red 100%);
+  margin-bottom: 54px;
+}
+
+#header1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Kalam", sans-serif;
+  padding: 1.5vh 2vw 1.5vh;
+}
+
+#header2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+
+.titre_présentation {
+  font-family: "Kalam", sans-serif;
+  font-size: 2.5vw;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+}
+
+
+.text_dev {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.6vw;
+  text-shadow: 1px 1px 1px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+
+#titre_discord {
+  font-family: "Kalam", sans-serif;
+  font-size: 2vw;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+}
+
+#texte_activites {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5vw;
+  text-shadow: 1px 1px 1px black;
+  color: white;
+}
+
+.buttons_header {
+  text-decoration: none;
+  font-size: 1.8vw;
+  border: 0.6vw black solid;
+  color:red;
+  padding: 5px 8px;
+  border-radius: 15px;
+  font-family: "Kalam", sans-serif;
+}
+
+.buttons_header:hover {
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+
+
+
+
+footer {
+  background: linear-gradient(180deg, red 0%, black 100%);
+  padding: 3% 5% 0;
+  margin-top: -36px;
+  border: solid black 1px;
+}
+
+footer section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.2vw;
+  color: white;
+}
+
+#logo_footer {
+  width: 10vw;
+}
+
+#reseaux_sociaux {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 1.5vw;
+}
+
+#instagram {
+  width: 3vw;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+
+#titre_footer {
+  font-weight: bold;
+  font-size: 1.4vw;
+}
+
+
+#button_contact {
+  text-decoration: none;
+  border: 0.4vw black solid;
+  color:red ;
+  padding: 5px 8px;
+  border-radius: 15px;
+  font-family: "Quicksand", sans-serif;
+}
+
+
+#button_presentation {
+  text-decoration: none;
+  font-size: 1.8vw;
+  border: 0.6vw red solid;
+  color: black ;
+  padding: 5px 8px;
+  border-radius: 15px;
+  font-family: "Kalam", sans-serif;
+  margin: 0 15vw 0;
+}
+
+#button_presentation:hover {
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+
+#main_presentation {
+  display: flex;
+  flex-direction: column;
+  margin: 8vh 5vw 0;
+  border: 4px white solid;
+  border-radius: 15px;
+  padding: 2% 4% 2%;
+  background-color: rgba(249, 216, 183, 0.6);
+  text-align: center;
+  margin: 10vh 14vw 10vh;
+}
